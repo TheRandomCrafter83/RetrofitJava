@@ -9,7 +9,7 @@ public class ApiClient {
 
 
 
-    private static final String BASE_URL= "https://www.coderzf1.com";
+    private static final String BASE_URL= "https://dl.dropboxusercontent.com";
 
     static Retrofit getClient(){
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
